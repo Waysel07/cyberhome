@@ -14,6 +14,8 @@ A cyberpunk-style home screen (launcher) for Android TV boxes and projectors, in
 
 Targets Android 9 (SDK 28), minimum SDK 26, 1920x1080.
 
+Built and tested on an **STA U0320** projector (MediaTek MT5862, Android 9, armeabi-v7a). The projector-control shortcuts (auto focus, keystone, zoom) call that firmware's vendor apps, so they may do nothing on other devices.
+
 ## Building
 
 No Gradle. `build.ps1` runs aapt2 → javac → d8 → zipalign → apksigner directly.
@@ -41,3 +43,9 @@ adb shell cmd package set-home-activity com.cyberhome/.MainActivity
 Wi-Fi scanning needs location enabled and location permission granted to the app on some firmwares.
 
 `iterate.ps1 -Tv <ip>:5555 -Name test -Keys "RIGHT,DOWN"` rebuilds, installs over network ADB, presses keys and pulls a render of the screen to `snaps/`.
+
+## Credits
+
+Based on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT License), which strips bloatware from Android TV devices and replaces the home screen with a clean launcher. CyberHome started from that idea and was reworked into a cyberpunk-themed launcher.
+
+Design inspired by the Cyberpunk 2077 menus (CD PROJEKT RED). Font: [Rajdhani](https://fonts.google.com/specimen/Rajdhani) (SIL Open Font License). BTC prices from the Coinbase public API.
