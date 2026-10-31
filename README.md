@@ -10,6 +10,8 @@ A cyberpunk-style home screen (launcher) for Android TV boxes and projectors, in
 - Built-in Settings and Wi-Fi pages (scan, connect via text prompt)
 - Shortcuts to inputs (HDMI/AV) and vendor projector controls (focus, keystone)
 
+`ref/` holds the Cyberpunk 2077 menu screenshots the design was matched to.
+
 Targets Android 9 (SDK 28), minimum SDK 26, 1920x1080.
 
 ## Building
