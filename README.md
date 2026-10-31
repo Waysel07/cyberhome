@@ -49,3 +49,7 @@ Wi-Fi scanning needs location enabled and location permission granted to the app
 Based on [CleanYourTV](https://github.com/Gathin23/cleanyourtv) by Gathin (MIT License), which strips bloatware from Android TV devices and replaces the home screen with a clean launcher. CyberHome started from that idea and was reworked into a cyberpunk-themed launcher.
 
 Design inspired by the Cyberpunk 2077 menus (CD PROJEKT RED). Font: [Rajdhani](https://fonts.google.com/specimen/Rajdhani) (SIL Open Font License). BTC prices from the Coinbase public API.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Third-party notices (CleanYourTV, Rajdhani font, Cyberpunk 2077 references) are in [NOTICE](NOTICE).
